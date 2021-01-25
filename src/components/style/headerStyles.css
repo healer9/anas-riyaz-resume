@@ -1,0 +1,43 @@
+.name {
+    font-size: 5rem;
+}
+
+.fname {
+    font-weight: 100;
+}
+
+.contact {
+    width: 22%;
+}
+
+.contact li {
+    margin-top: 3%;
+    font-size: 1.1rem;
+}
+
+.contact-icon {
+    margin-right: 10%;
+}
+
+/* tab-view */
+@media (max-width: 768px) {
+    header {
+        display: block;
+        margin: auto;
+    }
+
+    .name {
+        text-align: center;
+        font-size: 7rem;
+    }
+
+    .contact {
+        width: 80%;
+        margin: auto;
+    }
+
+    .contact li {
+        margin-top: 1%;
+        font-size: 1rem;
+    }
+}

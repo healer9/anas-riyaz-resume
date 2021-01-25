@@ -1,0 +1,33 @@
+.heading {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    align-items: center;
+}
+
+.details {
+    margin-top: 2%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1.3rem;
+    margin-top: 2%;
+}
+
+.skills li {
+    list-style: inside;
+    font-weight: 600;
+    padding-top: 1%;
+}
+
+/* tab-view */
+@media (max-width: 768px) {}

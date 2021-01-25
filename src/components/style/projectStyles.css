@@ -1,0 +1,23 @@
+.project-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0 0.5% 0;
+    border-bottom: 1px solid;
+}
+
+.type {
+    padding-left: 3%;
+    border-left: 2px solid;
+}
+
+.project-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.project-description {
+    margin-top: 1%;
+}
