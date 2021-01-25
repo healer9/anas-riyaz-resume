@@ -20,7 +20,7 @@
 }
 
 /* tab-view */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     header {
         display: block;
         margin: auto;
@@ -28,7 +28,7 @@
 
     .name {
         text-align: center;
-        font-size: 7rem;
+        font-size: 4rem;
     }
 
     .contact {

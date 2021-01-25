@@ -17,7 +17,9 @@ const Achievement = () => {
             <h1 className="section-heading">Achievements</h1>
             {achievements.map((achievement) => {
                 return (
-                    <div style={{ display: "flex", alignItems: "center" }} key={achievement.link}>
+                    <div className="achievement"
+                        style={{ display: "flex", alignItems: "center" }}
+                        key={achievement.link}>
                         <li style={linkStyle}>{achievement.description}</li>
                         <i className="fa fa-external-link" aria-hidden="true"
                             onClick={() => window.open(achievement.link)}

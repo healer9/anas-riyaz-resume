@@ -21,3 +21,23 @@
 .project-description {
     margin-top: 1%;
 }
+
+
+@media (max-width: 1000px) {
+    .project-heading {
+        font-size: 1rem;
+    }
+
+    .type {
+        display: none;
+    }
+
+    .project-link {
+        display: block;
+        font-size: 1rem;
+    }
+
+    .pro-name {
+        font-size: 1.3rem;
+    }
+}

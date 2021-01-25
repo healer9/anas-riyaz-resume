@@ -6,7 +6,7 @@ const College = () => {
     return (
         <>
             <div className="heading">
-                <h2 className="">{college.name}</h2>
+                <h2 className="institute-name">{college.name}</h2>
                 <p className="">{college.duration}</p>
             </div>
             <div className="info">

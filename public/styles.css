@@ -59,3 +59,32 @@ footer {
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
 }
+
+@media (max-width: 1000px) {
+
+    header,
+    .section-container {
+        padding: 4%;
+    }
+
+    .section-heading {
+        font-size: 2rem;
+        border-bottom: 3px solid;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+
+    li {
+        font-size: 1.2rem;
+    }
+
+    .achievement li {
+        font-size: 0.5rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}

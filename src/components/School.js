@@ -5,7 +5,7 @@ const School = () => {
     const { school } = User.education
     return (
         <>
-            <h2 className="heading">{school.name}</h2>
+            <h2 className="heading institute-name">{school.name}</h2>
             <div className="info">
                 <h3>Class 12</h3>
                 <h3>Marks : {school.intermediateMarks}</h3>

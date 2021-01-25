@@ -49,7 +49,7 @@ const User = {
     ],
     achievements: [
         {
-            description: 'HackerRank Problem Solving Certificate',
+            description: 'HackerRank Certificate',
             link: 'https://www.hackerrank.com/certificates/38d459dd5662'
         },
         {

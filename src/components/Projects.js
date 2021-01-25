@@ -12,14 +12,14 @@ const Projects = () => {
                 return (
                     <div key={project.name.toString()}>
                         <div className="project-heading">
-                            <h1>{project.name}</h1>
+                            <h1 className="pro-name">{project.name}</h1>
                             <h2 className="type">{project.type}</h2>
                         </div>
                         <div className="project-link">
                             <h3>Source Code : <span onClick={() => window.open(project.sourceCode)}
-                                style={{ textDecoration: "underline", cursor: "pointer" }}>{project.sourceCode}</span></h3>
+                                style={{ textDecoration: "underline", cursor: "pointer" }}>{project.sourceCode.slice(8)}</span></h3>
                             <h3>Live At : <span onClick={() => window.open(project.liveAt)}
-                                style={{ textDecoration: "underline", cursor: "pointer" }}>{project.liveAt}</span></h3>
+                                style={{ textDecoration: "underline", cursor: "pointer" }}>{project.liveAt.slice(8)}</span></h3>
                         </div>
                         <h3 style={{ marginTop: "1%" }}>Build With : {project.buildWith}</h3>
                         <p className="project-description">{project.description}</p>
