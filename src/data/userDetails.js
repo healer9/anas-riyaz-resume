@@ -5,13 +5,14 @@ const User = {
         number: '(+91) - 8299088679',
         email: 'anasriyaz92@gmail.com',
         github: 'github.com/healer9',
-        linkedIn: 'linkedin.com/in/anas-riyaz/',
-
+        linkedIn: 'linkedin.com/anas-riyaz',
+        portfolio: 'anas-riyaz-portfolio'
     },
     links: {
         mail: 'mailto:anasriyaz92@gmail.com',
         githubLink: 'https://github.com/healer9',
-        linkedInLink: 'http://linkedin.com/in/anas-riyaz/'
+        linkedInLink: 'http://linkedin.com/in/anas-riyaz/',
+        portfolioLink: 'https://healer9.github.io/anas-riyaz-portfolio/'
     },
     education: {
         school: {
@@ -36,7 +37,15 @@ const User = {
             sourceCode: 'https://github.com/healer9/quiz-app',
             liveAt: 'https://healer9.github.io/quiz-app/#',
             buildWith: 'React Js',
-            description: 'This app is created using React JS. It will help you to'
+            description: 'This app is completely built with React JS. It contains the questions from various topics that are helpful in cracking the technical interviews for SDE.'
+        },
+        {
+            name: 'Sudoku Solver',
+            type: 'Web Application',
+            sourceCode: 'https://healer9.github.io/sudoku-solver/',
+            liveAt: 'https://healer9.github.io/sudoku-solver/',
+            buildWith: 'React Js',
+            description: 'This app uses AXIOS to fetch API data and generate sudoku puzzle. Backtracking and Recursive approach is used to solve the generated sudoku puzzle on a click.'
         },
         {
             name: 'School Website',
@@ -44,7 +53,7 @@ const User = {
             sourceCode: 'https://github.com/healer9/gurukul',
             liveAt: 'https://healer9.github.io/gurukul/#',
             buildWith: 'React Js',
-            description: 'This app is created using React JS. It will help you to'
+            description: `This is a modern school website. Having all the content (e.g School news, Admission Notice, Student/Faculty Login etc)`
         }
     ],
     achievements: [

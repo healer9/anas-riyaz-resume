@@ -7,7 +7,10 @@
 }
 
 .contact {
-    width: 22%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    font-size: 1.5rem;
 }
 
 .contact li {
@@ -20,7 +23,13 @@
 }
 
 /* tab-view */
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
+    .contact {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 700px) {
     header {
         display: block;
         margin: auto;
@@ -28,16 +37,20 @@
 
     .name {
         text-align: center;
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .contact {
-        width: 80%;
+        width: 70%;
         margin: auto;
     }
 
     .contact li {
         margin-top: 1%;
         font-size: 1rem;
+    }
+
+    .contact-icon {
+        margin-right: -10%;
     }
 }
