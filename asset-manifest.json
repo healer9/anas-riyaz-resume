@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/anas-riyaz-resume/static/css/main.030abe48.chunk.css",
-    "main.js": "/anas-riyaz-resume/static/js/main.073abcd8.chunk.js",
-    "main.js.map": "/anas-riyaz-resume/static/js/main.073abcd8.chunk.js.map",
+    "main.css": "/anas-riyaz-resume/static/css/main.3d6c2be6.chunk.css",
+    "main.js": "/anas-riyaz-resume/static/js/main.6e21642b.chunk.js",
+    "main.js.map": "/anas-riyaz-resume/static/js/main.6e21642b.chunk.js.map",
     "runtime-main.js": "/anas-riyaz-resume/static/js/runtime-main.4d36d607.js",
     "runtime-main.js.map": "/anas-riyaz-resume/static/js/runtime-main.4d36d607.js.map",
     "static/css/2.97ca012b.chunk.css": "/anas-riyaz-resume/static/css/2.97ca012b.chunk.css",
@@ -10,16 +10,16 @@
     "static/js/2.789ecf77.chunk.js.map": "/anas-riyaz-resume/static/js/2.789ecf77.chunk.js.map",
     "index.html": "/anas-riyaz-resume/index.html",
     "static/css/2.97ca012b.chunk.css.map": "/anas-riyaz-resume/static/css/2.97ca012b.chunk.css.map",
-    "static/css/main.030abe48.chunk.css.map": "/anas-riyaz-resume/static/css/main.030abe48.chunk.css.map",
+    "static/css/main.3d6c2be6.chunk.css.map": "/anas-riyaz-resume/static/css/main.3d6c2be6.chunk.css.map",
     "static/js/2.789ecf77.chunk.js.LICENSE.txt": "/anas-riyaz-resume/static/js/2.789ecf77.chunk.js.LICENSE.txt",
-    "static/media/Anas Riyaz Resume.112776b4.pdf": "/anas-riyaz-resume/static/media/Anas Riyaz Resume.112776b4.pdf",
+    "static/media/Anas Riyaz Resume.cae7ac30.pdf": "/anas-riyaz-resume/static/media/Anas Riyaz Resume.cae7ac30.pdf",
     "static/media/font-awesome.min.css": "/anas-riyaz-resume/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.4d36d607.js",
     "static/css/2.97ca012b.chunk.css",
     "static/js/2.789ecf77.chunk.js",
-    "static/css/main.030abe48.chunk.css",
-    "static/js/main.073abcd8.chunk.js"
+    "static/css/main.3d6c2be6.chunk.css",
+    "static/js/main.6e21642b.chunk.js"
   ]
 }
