@@ -42,7 +42,7 @@ const User = {
         {
             name: 'Sudoku Solver',
             type: 'Web Application',
-            sourceCode: 'https://healer9.github.io/sudoku-solver/',
+            sourceCode: 'https://github.com/healer9/sudoku-solver',
             liveAt: 'https://healer9.github.io/sudoku-solver/',
             buildWith: 'React Js',
             description: 'This app uses AXIOS to fetch API data and generate sudoku puzzle. Backtracking and Recursive approach is used to solve the generated sudoku puzzle on a click.'
